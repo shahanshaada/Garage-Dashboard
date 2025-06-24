@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CRED Garage Inspired Dashboard
 
-## Getting Started
+A responsive and modern web dashboard inspired by CRED Garage, built with Next.js, TailwindCSS, and Framer Motion. This project demonstrates excellent UI/UX practices, subtle animations, and attention to detail, simulating a real-world frontend development task.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **User Profile Summary**: Displays avatar, name, level, and gamification progress (XP bar).
+* **Benefits Section**: A card-tile layout for discounts, offers, and vouchers with titles, icons, descriptions, and CTAs.
+* **Reward Points Progress**: Visual representation of reward points using a radial chart.
+* **Dark/Light Mode Toggle**: Persistent theme switching stored in local storage.
+* **Loading Skeletons**: Smooth loading states implemented for all data-fetching components.
+* **Smooth Transitions & Animations**: Utilizes Framer Motion for delightful UI interactions, including hover effects, layout transitions, and progress animations.
+* **Mock API Integration**: Simulates backend data fetching with artificial delays.
+* **Responsive Design**: Mobile-first approach ensuring optimal viewing experience across various devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+* **Framework**: [Next.js 14 (App Router)](https://nextjs.org/)
+* **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+* **Animations**: [Framer Motion](https://www.framer.com/motion/)
+* **Charting**: [Recharts](https://recharts.org/en-US/) (for Reward Points Progress)
+* **State Management (Theme)**: React Context API
+* **Language**: TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Setup Instructions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Follow these steps to set up and run the project locally:
 
-## Deploy on Vercel
+1.  **Clone the repository:**
+    ```bash
+    git clone 
+    cd cred-garage-dashboard
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or yarn install
+    # or pnpm install
+    ```
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    # or yarn dev
+    # or pnpm dev
+    ```
+4.  Open [http://localhost:3000](http://localhost:3000) in your browser to see the dashboard.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Live Deployment
+
+This project is deployed live on Vercel. You can view the live demo here:
+
+
+
+---
+
+## Screenshots
+
+
+
+---
+
+Author
+
+Shahan Shaada - www.linkedin.com/in/shahan-shaada-3a3331237
