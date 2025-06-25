@@ -17,9 +17,9 @@ A responsive and modern web dashboard inspired by CRED Garage, built with Next.j
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-* **Framework**: [Next.js 14 (App Router)](https://nextjs.org/)
+* **Framework**: [Next.js](https://nextjs.org/)
 * **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 * **Animations**: [Framer Motion](https://www.framer.com/motion/)
 * **Charting**: [Recharts](https://recharts.org/en-US/) (for Reward Points Progress)
@@ -34,7 +34,7 @@ Follow these steps to set up and run the project locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone 
+    git clone https://github.com/shahanshaada/Garage-Dashboard.git
     cd cred-garage-dashboard
     ```
 2.  **Install dependencies:**
@@ -57,12 +57,7 @@ Follow these steps to set up and run the project locally:
 
 This project is deployed live on Vercel. You can view the live demo here:
 
-
-
----
-
-## Screenshots
-
+https://garage-dashboard-red.vercel.app/
 
 
 ---
