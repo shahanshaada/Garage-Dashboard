@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Button } from '@/components/ui/button';
 
 interface BenefitCardProps {
   title: string;
@@ -24,11 +25,9 @@ const BenefitCard = ({ title, icon, description, ctaText }: BenefitCardProps) =>
       <p className="text-sm text-gray-600 dark:text-gray-400 mb-4 flex-grow">
         {description}
       </p>
-      <button
-        className="mt-auto px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-200 w-full max-w-[200px] whitespace-nowrap"
-      >
+      <Button className="w-full">
         {ctaText}
-      </button>
+      </Button>
     </motion.div>
   );
 };
